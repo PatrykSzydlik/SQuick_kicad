@@ -35,8 +35,8 @@ L power:GND #PWR?
 U 1 1 60811C21
 P 4025 5275
 AR Path="/60811C21" Ref="#PWR?"  Part="1" 
-AR Path="/608073F3/60811C21" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4025 5025 50  0001 C CNN
+AR Path="/608073F3/60811C21" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 4025 5025 50  0001 C CNN
 F 1 "GND" H 4030 5102 50  0000 C CNN
 F 2 "" H 4025 5275 50  0001 C CNN
 F 3 "" H 4025 5275 50  0001 C CNN
@@ -69,8 +69,8 @@ L power:GND #PWR?
 U 1 1 60811C32
 P 2650 3525
 AR Path="/60811C32" Ref="#PWR?"  Part="1" 
-AR Path="/608073F3/60811C32" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 3275 50  0001 C CNN
+AR Path="/608073F3/60811C32" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 2650 3275 50  0001 C CNN
 F 1 "GND" H 2655 3352 50  0000 C CNN
 F 2 "" H 2650 3525 50  0001 C CNN
 F 3 "" H 2650 3525 50  0001 C CNN
@@ -86,8 +86,8 @@ L power:+3.3V #PWR?
 U 1 1 60811C3A
 P 2650 2975
 AR Path="/60811C3A" Ref="#PWR?"  Part="1" 
-AR Path="/608073F3/60811C3A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2650 2825 50  0001 C CNN
+AR Path="/608073F3/60811C3A" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 2650 2825 50  0001 C CNN
 F 1 "+3.3V" H 2665 3148 50  0000 C CNN
 F 2 "" H 2650 2975 50  0001 C CNN
 F 3 "" H 2650 2975 50  0001 C CNN
@@ -126,8 +126,8 @@ L power:GND #PWR?
 U 1 1 60811C4E
 P 4900 3550
 AR Path="/60811C4E" Ref="#PWR?"  Part="1" 
-AR Path="/608073F3/60811C4E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4900 3300 50  0001 C CNN
+AR Path="/608073F3/60811C4E" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 4900 3300 50  0001 C CNN
 F 1 "GND" H 4905 3377 50  0000 C CNN
 F 2 "" H 4900 3550 50  0001 C CNN
 F 3 "" H 4900 3550 50  0001 C CNN
@@ -273,56 +273,56 @@ Connection ~ 2825 3125
 Connection ~ 3125 3200
 Text Notes 3350 2600 0    100  ~ 0
 Motor Driver
-Text Notes 7550 2650 0    100  ~ 0
+Text Notes 6175 2575 0    100  ~ 0
 Encoders
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 60814B9C
-P 8425 3525
+P 7050 3450
 AR Path="/60814B9C" Ref="J?"  Part="1" 
 AR Path="/608073F3/60814B9C" Ref="J?"  Part="1" 
-F 0 "J?" H 8343 3000 50  0000 C CNN
-F 1 "ENK_R" H 8343 3091 50  0000 C CNN
-F 2 "" H 8425 3525 50  0001 C CNN
-F 3 "~" H 8425 3525 50  0001 C CNN
-	1    8425 3525
+F 0 "J?" H 6968 2925 50  0000 C CNN
+F 1 "ENK_R" H 6968 3016 50  0000 C CNN
+F 2 "" H 7050 3450 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
 	-1   0    0    1   
 $EndComp
-Text GLabel 8625 3725 2    50   Input ~ 0
+Text GLabel 7250 3650 2    50   Input ~ 0
 M1_R
-Text GLabel 8625 3625 2    50   Input ~ 0
+Text GLabel 7250 3550 2    50   Input ~ 0
 M2_R
-Text GLabel 8625 3325 2    50   Output ~ 0
+Text GLabel 7250 3250 2    50   Output ~ 0
 OUT_B_R
-Text GLabel 8625 3425 2    50   Output ~ 0
+Text GLabel 7250 3350 2    50   Output ~ 0
 OUT_A_R
-Text GLabel 8625 3525 2    50   Input ~ 0
+Text GLabel 7250 3450 2    50   Input ~ 0
 +3.3V
-Text GLabel 7450 3525 2    50   Input ~ 0
+Text GLabel 6075 3450 2    50   Input ~ 0
 +3.3V
-Text GLabel 8625 3225 2    50   BiDi ~ 0
+Text GLabel 7250 3150 2    50   BiDi ~ 0
 GND
-Text GLabel 7450 3625 2    50   Input ~ 0
+Text GLabel 6075 3550 2    50   Input ~ 0
 M2_L
-Text GLabel 7450 3725 2    50   Input ~ 0
+Text GLabel 6075 3650 2    50   Input ~ 0
 M1_L
-Text GLabel 7450 3325 2    50   Output ~ 0
+Text GLabel 6075 3250 2    50   Output ~ 0
 OUT_B_L
-Text GLabel 7450 3425 2    50   Output ~ 0
+Text GLabel 6075 3350 2    50   Output ~ 0
 OUT_A_L
-Text GLabel 7450 3225 2    50   BiDi ~ 0
+Text GLabel 6075 3150 2    50   BiDi ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 60814B8A
-P 7250 3525
+P 5875 3450
 AR Path="/60814B8A" Ref="J?"  Part="1" 
 AR Path="/608073F3/60814B8A" Ref="J?"  Part="1" 
-F 0 "J?" H 7168 3000 50  0000 C CNN
-F 1 "ENK_L" H 7168 3091 50  0000 C CNN
-F 2 "" H 7250 3525 50  0001 C CNN
-F 3 "~" H 7250 3525 50  0001 C CNN
-	1    7250 3525
+F 0 "J?" H 5793 2925 50  0000 C CNN
+F 1 "ENK_L" H 5793 3016 50  0000 C CNN
+F 2 "" H 5875 3450 50  0001 C CNN
+F 3 "~" H 5875 3450 50  0001 C CNN
+	1    5875 3450
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
