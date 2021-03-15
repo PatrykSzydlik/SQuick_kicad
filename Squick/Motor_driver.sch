@@ -286,7 +286,7 @@ F 0 "J8" H 8343 3000 50  0000 C CNN
 F 1 "ENK_R" H 8343 3091 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8425 3525 50  0001 C CNN
 F 3 "~" H 8425 3525 50  0001 C CNN
-	1    8425 3525
+	1    7050 3450
 	-1   0    0    1   
 $EndComp
 Text GLabel 7250 3650 2    50   Input ~ 0
@@ -323,7 +323,7 @@ F 0 "J7" H 7168 3000 50  0000 C CNN
 F 1 "ENK_L" H 7168 3091 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7250 3525 50  0001 C CNN
 F 3 "~" H 7250 3525 50  0001 C CNN
-	1    7250 3525
+	1    5875 3450
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -217,7 +217,7 @@ AR Path="/607D5FB4" Ref="U?"  Part="1"
 AR Path="/607AE2DE/607D5FB4" Ref="U7"  Part="1" 
 F 0 "U7" H 8250 2050 50  0000 C CNN
 F 1 "KTIR0711S" H 8250 1959 50  0000 C CNN
-F 2 "Varistor:transoptor_KTIR0711S" H 8050 1525 50  0001 L CIN
+F 2 "warsztaty:KTIR0711S" H 8050 1525 50  0001 L CIN
 F 3 "" H 8250 1725 50  0000 L CNN
 	1    8250 1725
 	1    0    0    -1  
@@ -312,7 +312,7 @@ AR Path="/607D5F88" Ref="U?"  Part="1"
 AR Path="/607AE2DE/607D5F88" Ref="U6"  Part="1" 
 F 0 "U6" H 7025 2050 50  0000 C CNN
 F 1 "KTIR0711S" H 7025 1959 50  0000 C CNN
-F 2 "Varistor:transoptor_KTIR0711S" H 6825 1525 50  0001 L CIN
+F 2 "warsztaty:KTIR0711S" H 6825 1525 50  0001 L CIN
 F 3 "" H 7025 1725 50  0000 L CNN
 	1    7025 1725
 	1    0    0    -1  
@@ -403,7 +403,7 @@ AR Path="/607D5F5C" Ref="U?"  Part="1"
 AR Path="/607AE2DE/607D5F5C" Ref="U5"  Part="1" 
 F 0 "U5" H 5675 2050 50  0000 C CNN
 F 1 "KTIR0711S" H 5675 1959 50  0000 C CNN
-F 2 "Varistor:transoptor_KTIR0711S" H 5475 1525 50  0001 L CIN
+F 2 "warsztaty:KTIR0711S" H 5475 1525 50  0001 L CIN
 F 3 "" H 5675 1725 50  0000 L CNN
 	1    5675 1725
 	1    0    0    -1  
@@ -494,7 +494,7 @@ AR Path="/607D5F30" Ref="U?"  Part="1"
 AR Path="/607AE2DE/607D5F30" Ref="U3"  Part="1" 
 F 0 "U3" H 4300 2050 50  0000 C CNN
 F 1 "KTIR0711S" H 4300 1959 50  0000 C CNN
-F 2 "Varistor:transoptor_KTIR0711S" H 4100 1525 50  0001 L CIN
+F 2 "warsztaty:KTIR0711S" H 4100 1525 50  0001 L CIN
 F 3 "" H 4300 1725 50  0000 L CNN
 	1    4300 1725
 	1    0    0    -1  
@@ -928,17 +928,6 @@ PT_5
 Text GLabel 5725 5050 2    50   Input ~ 0
 PT_6
 $Comp
-L Squick-rescue:SFH-313FA-Squick_working T1
-U 1 1 605C6C36
-P 6475 4625
-F 0 "T1" H 6644 4496 50  0000 L CNN
-F 1 "SFH-313FA" H 6644 4405 50  0000 L CNN
-F 2 "LED_THT:LED_D5.0mm" H 6475 4375 50  0001 C CNN
-F 3 "" H 6475 4375 50  0001 C CNN
-	1    6475 4625
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R17
 U 1 1 605C83F7
 P 6600 4300
@@ -964,8 +953,6 @@ F 3 "" H 6600 4125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 4125 6600 4200
-Wire Wire Line
-	6600 5025 6600 5200
 $Comp
 L power:GND #PWR?
 U 1 1 605CEF97
@@ -984,8 +971,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 4475 6750 4475
 Connection ~ 6600 4475
-Wire Wire Line
-	6600 4475 6600 4575
 Text GLabel 6750 4475 2    50   Output ~ 0
 PT_1
 $Comp
@@ -1299,4 +1284,19 @@ Text GLabel 2100 1400 2    50   Input ~ 0
 VL_XSHUT
 Text GLabel 975  1375 2    50   Input ~ 0
 VL_XSHUT
+Wire Wire Line
+	6600 4475 6600 4575
+Wire Wire Line
+	6600 5025 6600 5200
+$Comp
+L Squick-rescue:SFH-313FA-Squick_working T1
+U 1 1 605C6C36
+P 6475 4625
+F 0 "T1" H 6644 4496 50  0000 L CNN
+F 1 "SFH-313FA" H 6644 4405 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 6475 4375 50  0001 C CNN
+F 3 "" H 6475 4375 50  0001 C CNN
+	1    6475 4625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

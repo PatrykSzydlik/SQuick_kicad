@@ -45,7 +45,7 @@ AR Path="/6073660F" Ref="SW?"  Part="1"
 AR Path="/6071FF50/6073660F" Ref="SW3"  Part="1" 
 F 0 "SW3" H 5750 2385 50  0000 C CNN
 F 1 "RESET" H 5750 2294 50  0000 C CNN
-F 2 "Button_Switch_SMD:Tact_Switch_SMD_3x6mm" H 5750 2300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 5750 2300 50  0001 C CNN
 F 3 "~" H 5750 2300 50  0001 C CNN
 	1    5750 2100
 	1    0    0    -1  
@@ -651,7 +651,7 @@ AR Path="/604CCC9B" Ref="SW?"  Part="1"
 AR Path="/6071FF50/604CCC9B" Ref="SW1"  Part="1" 
 F 0 "SW1" H 1275 2110 50  0000 C CNN
 F 1 "USER_BUT_1" H 1275 2019 50  0000 C CNN
-F 2 "Button_Switch_SMD:Tact_Switch_SMD_3x6mm" H 1275 2025 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 1275 2025 50  0001 C CNN
 F 3 "~" H 1275 2025 50  0001 C CNN
 	1    1275 1825
 	1    0    0    -1  
@@ -736,7 +736,7 @@ AR Path="/604DB18F" Ref="SW?"  Part="1"
 AR Path="/6071FF50/604DB18F" Ref="SW2"  Part="1" 
 F 0 "SW2" H 2775 2110 50  0000 C CNN
 F 1 "USER_BUT_2" H 2775 2019 50  0000 C CNN
-F 2 "Button_Switch_SMD:Tact_Switch_SMD_3x6mm" H 2775 2025 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 2775 2025 50  0001 C CNN
 F 3 "~" H 2775 2025 50  0001 C CNN
 	1    2775 1825
 	1    0    0    -1  
