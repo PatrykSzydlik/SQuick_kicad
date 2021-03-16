@@ -27,23 +27,23 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7125 4575 50  0001 C CNN
 	1    7125 4575
 	1    0    0    -1  
 $EndComp
-Text GLabel 7100 2275 2    50   Input ~ 0
+Text GLabel 7100 2200 2    50   Input ~ 0
 SHDN
-Text GLabel 7100 2175 2    50   Input ~ 0
+Text GLabel 7100 2100 2    50   Input ~ 0
 Vin
-Text GLabel 7100 2075 2    50   BiDi ~ 0
+Text GLabel 7100 2000 2    50   BiDi ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60828861
-P 6900 2175
+P 6900 2100
 AR Path="/60828861" Ref="J?"  Part="1" 
 AR Path="/608248A8/60828861" Ref="J10"  Part="1" 
-F 0 "J10" H 6818 1750 50  0000 C CNN
-F 1 "D24V3F-5V" H 6818 1841 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6900 2175 50  0001 C CNN
-F 3 "~" H 6900 2175 50  0001 C CNN
-	1    6900 2175
+F 0 "J10" H 6818 1675 50  0000 C CNN
+F 1 "D24V3F-5V" H 6818 1766 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6900 2100 50  0001 C CNN
+F 3 "~" H 6900 2100 50  0001 C CNN
+	1    6900 2100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -181,7 +181,7 @@ Text GLabel 2775 5525 2    50   BiDi ~ 0
 GND
 Wire Wire Line
 	2775 5525 2775 5625
-Text GLabel 7100 1975 2    50   Output ~ 0
+Text GLabel 7100 1900 2    50   Output ~ 0
 +5V
 $Comp
 L Device:C C?
