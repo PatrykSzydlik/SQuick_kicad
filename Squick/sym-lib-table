@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Squick-rescue)(type Legacy)(uri ${KIPRJMOD}/Squick-rescue.lib)(options "")(descr ""))
+  (lib (name AO3401)(type Legacy)(uri C:/Users/Piotr/Desktop/Squick/squick_kicad/Squick/Biblioteki/lib/AO3401.lib)(options "")(descr ""))
 )
