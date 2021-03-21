@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Squick-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,17 +43,17 @@ F 3 "" H 4025 5275 50  0001 C CNN
 	1    4025 5275
 	1    0    0    -1  
 $EndComp
-Text GLabel 3125 4000 0    50   Input ~ 0
-PWM_L
 Text GLabel 3125 4100 0    50   Input ~ 0
+PWM_L
+Text GLabel 3125 4000 0    50   Input ~ 0
 PWM_R
-Text GLabel 3125 4300 0    50   Input ~ 0
-L_IN1
-Text GLabel 3125 4400 0    50   Input ~ 0
-L_IN2
 Text GLabel 3125 4500 0    50   Input ~ 0
-R_IN1
+L_IN1
 Text GLabel 3125 4600 0    50   Input ~ 0
+L_IN2
+Text GLabel 3125 4300 0    50   Input ~ 0
+R_IN1
+Text GLabel 3125 4400 0    50   Input ~ 0
 R_IN2
 Wire Wire Line
 	3425 3200 3125 3200
@@ -95,13 +94,13 @@ F 3 "" H 2650 2975 50  0001 C CNN
 	1    2650 2975
 	1    0    0    -1  
 $EndComp
-Text GLabel 4325 3900 2    50   Output ~ 0
-M1_L
-Text GLabel 4325 4100 2    50   Output ~ 0
-M2_L
-Text GLabel 4325 4600 2    50   Output ~ 0
-M2_R
 Text GLabel 4325 4400 2    50   Output ~ 0
+M1_L
+Text GLabel 4325 4600 2    50   Output ~ 0
+M2_L
+Text GLabel 4325 4100 2    50   Output ~ 0
+M2_R
+Text GLabel 4325 3900 2    50   Output ~ 0
 M1_R
 Connection ~ 4025 3200
 Connection ~ 3725 5200
@@ -117,7 +116,7 @@ AR Path="/60811C48" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C48" Ref="C19"  Part="1" 
 F 0 "C19" H 4275 3450 50  0000 L CNN
 F 1 "100n" H 4225 3325 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4450 3375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 3375 50  0001 C CNN
 F 3 "~" H 4450 3375 50  0001 C CNN
 	1    4450 3375
 	1    0    0    -1  
@@ -143,7 +142,7 @@ AR Path="/60811C54" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C54" Ref="C20"  Part="1" 
 F 0 "C20" H 4525 3450 50  0000 L CNN
 F 1 "100n" H 4500 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 3375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3375 50  0001 C CNN
 F 3 "~" H 4700 3375 50  0001 C CNN
 	1    4700 3375
 	1    0    0    -1  
@@ -156,7 +155,7 @@ AR Path="/60811C5A" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C5A" Ref="C21"  Part="1" 
 F 0 "C21" H 4991 3421 50  0000 L CNN
 F 1 "22u" H 4991 3330 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 4900 3375 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 4900 3375 50  0001 C CNN
 F 3 "~" H 4900 3375 50  0001 C CNN
 	1    4900 3375
 	1    0    0    -1  
@@ -211,7 +210,7 @@ AR Path="/60811C77" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C77" Ref="C16"  Part="1" 
 F 0 "C16" H 2275 3375 50  0000 L CNN
 F 1 "100n" H 2200 3225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2425 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2425 3300 50  0001 C CNN
 F 3 "~" H 2425 3300 50  0001 C CNN
 	1    2425 3300
 	1    0    0    -1  
@@ -235,7 +234,7 @@ AR Path="/60811C83" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C83" Ref="C17"  Part="1" 
 F 0 "C17" H 2525 3375 50  0000 L CNN
 F 1 "10u" H 2475 3225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2650 3300 50  0001 C CNN
 F 3 "~" H 2650 3300 50  0001 C CNN
 	1    2650 3300
 	1    0    0    -1  
@@ -248,7 +247,7 @@ AR Path="/60811C89" Ref="C?"  Part="1"
 AR Path="/608073F3/60811C89" Ref="C18"  Part="1" 
 F 0 "C18" H 2925 3325 50  0000 L CNN
 F 1 "100n" H 2875 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2825 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2825 3300 50  0001 C CNN
 F 3 "~" H 2825 3300 50  0001 C CNN
 	1    2825 3300
 	1    0    0    -1  
@@ -284,7 +283,7 @@ AR Path="/60814B9C" Ref="J?"  Part="1"
 AR Path="/608073F3/60814B9C" Ref="J8"  Part="1" 
 F 0 "J8" H 8343 3000 50  0000 C CNN
 F 1 "ENK_R" H 8343 3091 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8425 3525 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical" H 8425 3525 50  0001 C CNN
 F 3 "~" H 8425 3525 50  0001 C CNN
 	1    7050 3450
 	-1   0    0    1   
@@ -321,7 +320,7 @@ AR Path="/60814B8A" Ref="J?"  Part="1"
 AR Path="/608073F3/60814B8A" Ref="J7"  Part="1" 
 F 0 "J7" H 7168 3000 50  0000 C CNN
 F 1 "ENK_L" H 7168 3091 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7250 3525 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical" H 7250 3525 50  0001 C CNN
 F 3 "~" H 7250 3525 50  0001 C CNN
 	1    5875 3450
 	-1   0    0    1   
