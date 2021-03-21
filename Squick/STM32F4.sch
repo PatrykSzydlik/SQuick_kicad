@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Squick-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -969,4 +970,12 @@ Text GLabel 9100 3700 2    50   Output ~ 0
 LED_3
 Text GLabel 9100 4100 2    50   Output ~ 0
 MOSI
+NoConn ~ 9100 4700
+NoConn ~ 9100 3600
+NoConn ~ 9100 3400
+NoConn ~ 9100 2600
+NoConn ~ 9100 2500
+NoConn ~ 7700 3000
+NoConn ~ 7700 3900
+NoConn ~ 7700 4000
 $EndSCHEMATC
