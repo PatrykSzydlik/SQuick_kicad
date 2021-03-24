@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Squick-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1269,16 +1270,22 @@ F 3 "" H 6475 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Squick_working:Adafruit_4554 U8
+L Squick-rescue:Adafruit_4554-Squick_working U8
 U 1 1 60644E3F
 P 9925 1275
+AR Path="/60644E3F" Ref="U8"  Part="1" 
+AR Path="/607AE2DE/60644E3F" Ref="U8"  Part="1" 
 F 0 "U8" H 10000 1740 50  0000 C CNN
 F 1 "Adafruit_4554" H 10000 1649 50  0000 C CNN
-F 2 "" H 9375 1975 50  0001 C CNN
+F 2 "IMU_Adafruit-4554:IMU_LSM9DS1_Adafruit4634" H 9375 1975 50  0001 C CNN
 F 3 "" H 9375 1975 50  0001 C CNN
 	1    9925 1275
 	1    0    0    -1  
 $EndComp
 Text GLabel 9575 1650 0    50   BiDi ~ 0
 GND
+NoConn ~ 9575 1475
+NoConn ~ 9575 1300
+NoConn ~ 9575 1125
+NoConn ~ 10425 1300
 $EndSCHEMATC
