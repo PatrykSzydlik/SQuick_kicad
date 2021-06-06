@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Squick-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -468,7 +467,7 @@ Text GLabel 9100 2200 2    50   Input ~ 0
 KTIR_3
 Text GLabel 9100 2100 2    50   Input ~ 0
 KTIR_2
-Text GLabel 9100 2000 2    50   Input ~ 0
+Text GLabel 7700 4000 0    50   Input ~ 0
 KTIR_1
 Text GLabel 9100 1900 2    50   Input ~ 0
 V_batt
@@ -977,5 +976,4 @@ NoConn ~ 9100 2600
 NoConn ~ 9100 2500
 NoConn ~ 7700 3000
 NoConn ~ 7700 3900
-NoConn ~ 7700 4000
 $EndSCHEMATC
